@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA2CE1241B8C43320030F098 /* icon_next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA2CE1221B8C43320030F098 /* icon_next@2x.png */; };
-		EA2CE1251B8C43320030F098 /* icon_previous@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA2CE1231B8C43320030F098 /* icon_previous@2x.png */; };
 		EAFE63991B85C31800DBD193 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFE63981B85C31800DBD193 /* main.m */; };
 		EAFE639C1B85C31800DBD193 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFE639B1B85C31800DBD193 /* AppDelegate.m */; };
 		EAFE639F1B85C31800DBD193 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFE639E1B85C31800DBD193 /* ViewController.m */; };
@@ -16,8 +14,10 @@
 		EAFE63A41B85C31800DBD193 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAFE63A31B85C31800DBD193 /* Images.xcassets */; };
 		EAFE63A71B85C31800DBD193 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAFE63A51B85C31800DBD193 /* LaunchScreen.xib */; };
 		EAFE63B31B85C31900DBD193 /* FDCalendarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFE63B21B85C31900DBD193 /* FDCalendarDemoTests.m */; };
-		EAFE63BF1B85C43D00DBD193 /* FDCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFE63BE1B85C43D00DBD193 /* FDCalendar.m */; };
-		EAFE63C21B85C45600DBD193 /* FDCalendarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFE63C11B85C45600DBD193 /* FDCalendarItem.m */; };
+		EBF3F6E31D2E6708008FE59E /* FDCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF3F6DD1D2E6708008FE59E /* FDCalendar.m */; };
+		EBF3F6E41D2E6708008FE59E /* FDCalendarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF3F6DF1D2E6708008FE59E /* FDCalendarItem.m */; };
+		EBF3F6E51D2E6708008FE59E /* icon_next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF3F6E11D2E6708008FE59E /* icon_next@2x.png */; };
+		EBF3F6E61D2E6708008FE59E /* icon_previous@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF3F6E21D2E6708008FE59E /* icon_previous@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +31,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EA2CE1221B8C43320030F098 /* icon_next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_next@2x.png"; path = "Resource/icon_next@2x.png"; sourceTree = SOURCE_ROOT; };
-		EA2CE1231B8C43320030F098 /* icon_previous@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_previous@2x.png"; path = "Resource/icon_previous@2x.png"; sourceTree = SOURCE_ROOT; };
 		EAFE63931B85C31800DBD193 /* FDCalendarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDCalendarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFE63971B85C31800DBD193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAFE63981B85C31800DBD193 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,10 +44,12 @@
 		EAFE63AC1B85C31900DBD193 /* FDCalendarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDCalendarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFE63B11B85C31900DBD193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAFE63B21B85C31900DBD193 /* FDCalendarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDCalendarDemoTests.m; sourceTree = "<group>"; };
-		EAFE63BD1B85C43D00DBD193 /* FDCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCalendar.h; sourceTree = "<group>"; };
-		EAFE63BE1B85C43D00DBD193 /* FDCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCalendar.m; sourceTree = "<group>"; };
-		EAFE63C01B85C45600DBD193 /* FDCalendarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCalendarItem.h; sourceTree = "<group>"; };
-		EAFE63C11B85C45600DBD193 /* FDCalendarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCalendarItem.m; sourceTree = "<group>"; };
+		EBF3F6DC1D2E6708008FE59E /* FDCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCalendar.h; sourceTree = "<group>"; };
+		EBF3F6DD1D2E6708008FE59E /* FDCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCalendar.m; sourceTree = "<group>"; };
+		EBF3F6DE1D2E6708008FE59E /* FDCalendarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCalendarItem.h; sourceTree = "<group>"; };
+		EBF3F6DF1D2E6708008FE59E /* FDCalendarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCalendarItem.m; sourceTree = "<group>"; };
+		EBF3F6E11D2E6708008FE59E /* icon_next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_next@2x.png"; sourceTree = "<group>"; };
+		EBF3F6E21D2E6708008FE59E /* icon_previous@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_previous@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,15 +70,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EA2CE1211B8C42BF0030F098 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				EA2CE1221B8C43320030F098 /* icon_next@2x.png */,
-				EA2CE1231B8C43320030F098 /* icon_previous@2x.png */,
-			);
-			name = Resource;
-			sourceTree = "<group>";
-		};
 		EAFE638A1B85C31800DBD193 = {
 			isa = PBXGroup;
 			children = (
@@ -100,7 +91,7 @@
 		EAFE63951B85C31800DBD193 /* FDCalendarDemo */ = {
 			isa = PBXGroup;
 			children = (
-				EAFE63BC1B85C40C00DBD193 /* FDCalendar */,
+				EBF3F6DB1D2E6708008FE59E /* FDCalendar */,
 				EAFE639A1B85C31800DBD193 /* AppDelegate.h */,
 				EAFE639B1B85C31800DBD193 /* AppDelegate.m */,
 				EAFE639D1B85C31800DBD193 /* ViewController.h */,
@@ -139,16 +130,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EAFE63BC1B85C40C00DBD193 /* FDCalendar */ = {
+		EBF3F6DB1D2E6708008FE59E /* FDCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				EA2CE1211B8C42BF0030F098 /* Resource */,
-				EAFE63BD1B85C43D00DBD193 /* FDCalendar.h */,
-				EAFE63BE1B85C43D00DBD193 /* FDCalendar.m */,
-				EAFE63C01B85C45600DBD193 /* FDCalendarItem.h */,
-				EAFE63C11B85C45600DBD193 /* FDCalendarItem.m */,
+				EBF3F6DC1D2E6708008FE59E /* FDCalendar.h */,
+				EBF3F6DD1D2E6708008FE59E /* FDCalendar.m */,
+				EBF3F6DE1D2E6708008FE59E /* FDCalendarItem.h */,
+				EBF3F6DF1D2E6708008FE59E /* FDCalendarItem.m */,
+				EBF3F6E01D2E6708008FE59E /* FDResource */,
 			);
-			name = FDCalendar;
+			path = FDCalendar;
+			sourceTree = "<group>";
+		};
+		EBF3F6E01D2E6708008FE59E /* FDResource */ = {
+			isa = PBXGroup;
+			children = (
+				EBF3F6E11D2E6708008FE59E /* icon_next@2x.png */,
+				EBF3F6E21D2E6708008FE59E /* icon_previous@2x.png */,
+			);
+			path = FDResource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,11 +231,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBF3F6E51D2E6708008FE59E /* icon_next@2x.png in Resources */,
 				EAFE63A21B85C31800DBD193 /* Main.storyboard in Resources */,
+				EBF3F6E61D2E6708008FE59E /* icon_previous@2x.png in Resources */,
 				EAFE63A71B85C31800DBD193 /* LaunchScreen.xib in Resources */,
-				EA2CE1251B8C43320030F098 /* icon_previous@2x.png in Resources */,
 				EAFE63A41B85C31800DBD193 /* Images.xcassets in Resources */,
-				EA2CE1241B8C43320030F098 /* icon_next@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,10 +254,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAFE639F1B85C31800DBD193 /* ViewController.m in Sources */,
-				EAFE63C21B85C45600DBD193 /* FDCalendarItem.m in Sources */,
+				EBF3F6E41D2E6708008FE59E /* FDCalendarItem.m in Sources */,
 				EAFE639C1B85C31800DBD193 /* AppDelegate.m in Sources */,
 				EAFE63991B85C31800DBD193 /* main.m in Sources */,
-				EAFE63BF1B85C43D00DBD193 /* FDCalendar.m in Sources */,
+				EBF3F6E31D2E6708008FE59E /* FDCalendar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -275,6 +275,7 @@ static NSDateFormatter *dateFormattor;
 - (void)calendarItem:(FDCalendarItem *)item didSelectedDate:(NSDate *)date {
     self.date = date;
     [self setCurrentDate:self.date];
+    
 }
 
 @end
